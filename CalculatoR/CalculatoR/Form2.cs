@@ -29,5 +29,15 @@ namespace CalculatoR
             textBox1.Text = Convert.ToString(Km * Litr / 100);
             textBox2.Text = Convert.ToString((Km * Litr / 100) * Cena);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+
+            numericUpDown1.Value = 0;
+            numericUpDown2.Value = 0;
+            numericUpDown3.Value = 0;
+        }
     }
 }
